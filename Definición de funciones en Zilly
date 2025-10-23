@@ -1,0 +1,23 @@
+add(q)(p): la cual retorna p + q
+primero debemos definir la funcion chs(n) -> -n
+
+Z => Z chs := fn(Z n) -> -n
+
+ahora si podemos definir una funcion add
+
+Z => Z => Z add := fn(Z p) -> fn(Z q) -> sub(chs(p))(q)
+
+t4(p): la cual retorna p*4
+para ello debemos tener la funcion add definida, hecho anteriormente
+
+Z => Z t4 := fn(Z p) -> add(add(p)(p))(add(p)(p))
+
+t256(p): la cual retorna p*256
+
+Z => Z t256 := fn(Z p) -> t4(t4(t4(t4(p))))
+
+implies(p)(q): definida como or(not(p))(q). (no he podido hacerla)
+
+min(a)(b): la cual retorna el mínimo entre a y b
+
+Z => Z => Z min := fn(Z a) -> fn(Z b) -> if(lt(a)(b), (b), (a))
