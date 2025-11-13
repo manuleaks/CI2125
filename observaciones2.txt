@@ -1,0 +1,11 @@
+-------------------
+-- C
+-------------------
+
+- El ejercicio no compila. Por lo tanto no puedo correr la suite.
+
+-------------------
+-- E
+-------------------
+
+- Este ejercicio tampoco compila.

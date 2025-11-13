@@ -1,0 +1,29 @@
+------------------------------------
+-- C
+------------------------------------
+
+Tamano 1 Not Pass
+Tamano 2 Not Pass
+Tamano 4 Not Pass
+Tamano 8 Not Pass
+
+
+------------------------------------
+-- D
+------------------------------------
+
+Tamano 1 Pass
+Tamano 2 Pass
+Tamano 4 Pass
+Tamano 8 Pass
+
+------------------------------------
+-- E
+------------------------------------
+
+test03: 0/1 Pass.
+test04: Suite no hecha, 0/3 Pass
+test05: Suite no hecha, 0/6 Pass
+test06: Suite no hecha, 0/3 Pass.
+test07: Suite no hecha, 0/6 Pass.
+test08: Suite no hecha, 0/6 Pass.
